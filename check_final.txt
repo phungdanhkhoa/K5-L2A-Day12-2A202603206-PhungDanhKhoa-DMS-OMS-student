@@ -1,0 +1,9 @@
+Kiểm kỹ thuật trên bản export CVAT task 29, gồm 22 khung. Cảnh báo còn chờ đối chiếu ảnh.
+
+File: .local/G07-from-cvat-task29.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=10, face13=6, hand=11, infant_seat=10, object=4, person=10
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_left=closed nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+  [WARN] D04.png: eye_right=closed nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D06.png: eye_left=closed nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+Kết quả: 0 lỗi, 4 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
