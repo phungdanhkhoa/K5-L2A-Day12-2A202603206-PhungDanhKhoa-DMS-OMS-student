@@ -1,7 +1,7 @@
 """Guideline Cabin v1.0 label schema, shared by cabin_check.py and the CVAT label JSON.
 
-Source of truth: lab_day_12.html, section "Label và thuộc tính".
-Edit here only; regenerate the CVAT label JSON with:  python3 cabin_schema.py > ../cvat/labels_cabin_v1.json
+Captures Guideline Cabin v1.0 and the coach’s 2026-11-21 label update.
+Edit here only; regenerate the CVAT label JSON with:  python3 scripts/cabin_schema.py > labels_cabin_v1.json
 """
 import json
 
@@ -45,7 +45,7 @@ LABELS = {
         "seat": SEATS,
         "seatbelt": ["unknown", "worn_correct", "worn_incorrect", "not_worn"],
     }),
-    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no"]}),
+    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no", "yes"]}),
     "infant_seat": ("rectangle", {"seat": SEATS, "facing": ["rear", "front"]}),
     "object": ("rectangle", {"seat": SEATS, "type": ["other", "bag", "box", "cup"]}),
     "frame_meta": ("tag", {
