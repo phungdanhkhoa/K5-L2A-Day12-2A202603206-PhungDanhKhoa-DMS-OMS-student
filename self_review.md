@@ -23,4 +23,4 @@ Cách tránh đề xuất là kiểm riêng từng mắt trước khi export. Ch
 
 ## 3. Ghi chú về disagreement_log
 
-Chờ review chéo cùng mã G07 hoặc phương án được coach duyệt. Sau review, ghi một dòng bất đồng mà nhận xét của bạn giúp sửa nhãn, kèm điều học được.
+Đã có diff với bản cùng mã G07. Sau khi hai người xem ảnh và chốt verdict, ghi một dòng bất đồng mà nhận xét của bạn giúp sửa nhãn, kèm điều học được.
