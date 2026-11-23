@@ -11,5 +11,6 @@
 | 7 | OpenAI Codex | Kiểm bản ZIP nhận để review và so nhãn trên 22 khung cốt lõi | Tạo CSV nháp, thêm mục guideline và hướng kiểm 8 dòng ưu tiên | Kiểm ZIP chỉ có XML, đối chiếu danh sách và kích thước khung, chạy cabin_check và diff. Khoa xác nhận bản nhận là G07. Kết luận trên ảnh đang chờ xác nhận. |
 | 8 | OpenAI Codex | Viết E3 theo các khác biệt trong hai bản G07 | Điền 8 dòng với verdict ambiguous, mục guideline và hành động khi đối chiếu CVAT | Chạy lại diff gốc và đối chiếu các giá trị trong CSV. Cần hai người kiểm trên CVAT trước khi xác nhận kết luận trực quan. |
 | 9 | OpenAI Codex | Hoàn thiện tệp E1 và rà E3 trước khi đóng gói | Đưa bản CVAT task 29 vào hồ sơ dưới tên `export_final.zip`, khai báo nguồn nhãn import và giữ các verdict E3 ở mức nháp | Chạy checker trên bản CVAT, so lại 140 dòng diff gốc và kiểm các tệp trong ZIP. |
+| 10 | OpenAI Codex | Ghi nhận trạng thái sau khi Khoa báo review xong | Cập nhật xác nhận chung vào `TEAM.md` và `self_review.md` | Đối chiếu với lời xác nhận của Khoa. CSV hiện lưu 8 verdict nháp. |
 
 Ảnh cabin chỉ dùng trong CVAT local. Khoa xác nhận bản CVAT được khởi tạo từ bản nhãn cũ và đã chỉnh landmark. Nguồn bản nhãn nhập và cách sử dụng trong bài nộp cần ghi rõ theo phần coach xác nhận hoặc phần gán lại thực tế.

@@ -23,4 +23,4 @@ Cách tránh đề xuất là kiểm riêng từng mắt trước khi export. Ch
 
 ## 3. Ghi chú về disagreement_log
 
-Đã có diff với bản cùng mã G07. Sau khi hai người xem ảnh và chốt verdict, ghi một dòng bất đồng mà nhận xét của bạn giúp sửa nhãn, kèm điều học được.
+Đã có diff với bản cùng mã G07. Khoa xác nhận đã review và kết quả chung ổn. Phần ghi nhận kết luận từng dòng và bài học cá nhân vẫn để Khoa bổ sung.
